@@ -13,7 +13,7 @@ This is just an example of hyperlinking
 }
 
 body {
-  background-color: #eee;
+  background-color: #FFA599;
 }
 nav {
   width: 100%;
@@ -42,7 +42,7 @@ ul li a{
   font-size: 14px;
   font-family: arial;
   color: #1e1e1e;
-  padding: 0 20px;
+  padding: 0 90px;
 
 }
 
@@ -50,3 +50,138 @@ ul li a:hover {
   color: teal;
 
 }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+video {
+  margin-top: 0 auto;
+  width: 50%;
+
+
+}
+h1-i {
+  font-size: 55px;
+  color: #2F4F4F;
+  font-family: 'Cutive Mono', monospace;
+}
+
+h1-n {
+  /* outline: 1px solid black; */
+  font-size: 17px;
+  color: #2F4F4F;
+  font-family: 'Cutive Mono', monospace;
+}
+
+
+h1-b {
+  /* outline: 1px solid black; */
+  font-size: 30px;
+  color: #2F4F4F;
+  font-family:'Cutive Mono', monospace;
+}
+
+h2-b {
+  /* outline: 1px solid black; */
+  font-size: 18px;
+  color: #2F4F4F;
+  font-family:'Cutive Mono', monospace;
+}
+
+h3-b {
+  font-size: 19px;
+  color: #2F4F4F;
+  font-family:'Cutive Mono', monospace;
+}
+
+.boxed {
+  border: 1px solid black ;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+  h1{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 40px;
+    color: #26008F;
+  }
+
+
+  /* Color #FFA599 is pink */
+
+
+
+
+  p {
+    font-size: 20px;
+    font-family: 'Noto Serif KR', serif;
+    color: #26008F;
+
+  }
+
+  h2{
+    font-size: 20px;
+    color: #26008F;
+    font-family: 'Cutive Mono', monospace;
+  }
+  h3{
+    font-size: 20px;
+    color: #26008F;
+    font-family: 'Cutive Mono', monospace;
+  }
+  h4{
+    font-size: 20px;
+    color: #26008F;
+    font-family: 'Cutive Mono', monospace;
+  }
+  h5{
+    font-size: 20px;
+    color: #26008F;
+    font-family: 'Cutive Mono', monospace;
+  }
+  h7{
+    font-size: 25px;
+    color: #26008F;
+    align: "left";
+    font-family: 'Metrophobic', sans-serif;
+  }
+  h8{
+    font-size: 25px;
+    color: #26008F;
+    align: "left";
+    font-family: 'Metrophobic', sans-serif;
+  }
+  h9{
+    font-size: 25px;
+    color: #26008F;
+    align: "left";
+    font-family: 'Metrophobic', sans-serif;
+  }
+  h10{
+    font-size: 25px;
+    color: #26008F;
+    align: "left";
+    font-family: 'Metrophobic', sans-serif;
+  /* h11{
+
+  } */
+  }
+  input{
+    background-color: #26008F;
+    border-color: #26008F;
+    color: #FFA599;
+    font-size: 18px;
+  }
