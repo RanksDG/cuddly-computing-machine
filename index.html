@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
   <title>FIA</title>
   <link rel="stylesheet" href="style.css">
+  <!-- <link rel="javascrpt" href="script.js"> -->
+  <script src="script.js"></script>
 </head>
 <body>
   <!-- <a href="#here">Going Back Home</a> This is a hyperlink I can put the fia logo here so that u can go back to the homepage -->
@@ -54,13 +56,13 @@
       You can take the personal survey here.
       </p> -->
 
-    <form action="fia.html" method="get" id="formpadding">
+    <form method="get" id="formpadding">
         <pre>
       <p> What is your name?
         <style>
 
         </style>
-        <p><input id="name1"type="text" placeholder="Your name" name="name">
+        <p> <input id="name1"type="text" placeholder="Your name" name="name">
         </p>
 
 
@@ -142,18 +144,44 @@
         </style>
         <p><input id="lack" type="text" placeholder="Human Nature" name="lack">
         </p>
+
+
+
         <div id="button">
-          <button id="buttonsubmit" type="submit" style="border: 0; background: transparent">
+          <center>
+          <button onclick="out1()" id="buttonsubmit" type="button" style="border: 0; background: transparent">
             <!-- <img src="submit.png" id="but" /> -->
-            <center>
+
               <img src="Sub4.jpeg" width="90" height="50" alt="submit" />
             </center>
           </button>
         </div>
-        <!-- <form id="form" onsubmit="return false;">
-    <input style="position:absolute; top:80%; left:5%; width:40%;" type="text" id="userInput" />
-    <input style="position:absolute; top:50%; left:5%; width:40%;" type="submit" onclick="othername();" />
-</form> -->
+
+
+        <!-- <script>
+
+        function output1() {
+          var user,info, ach,passTime,prod,ani,secrt,carer,travl,drem,acc,lck,y;
+          info = document.getElementById("formpadding");
+          y = info.elements["name"].value;
+          document.getElementById("demo").innerHTML="Hello" +y+ "Welcome to FiaFia";
+          documentwrite("Hello" +y+ "Welcome to FiaFia");
+        }
+
+
+        </script> -->
+
+        <p id="demo"> try</p>
+
+
+
+
+
+       <a id="here" href="fia.html">Home Page</a>
+         <!-- <form id="form" onsubmit="return false;">
+//     <input style="position:absolute; top:80%; left:5%; width:40%;" type="text" id="userInput" />
+//     <input style="position:absolute; top:50%; left:5%; width:40%;" type="submit" onclick="othername();" />
+// </form>
 
 
 
@@ -161,13 +189,15 @@
       </pre>
         </center>
 
+
   <a id="here" href="fia.html">Home Page</a>
-  <!-- <slider>
-    <slide><p>Amelia</p></slide>
-    <slide><p>Dana</p></slide>
-    <slide><p>Eva</p></slide>
-    <slide><p>Nicole</p></slide>
-    </slider> -->
-    <script src="fia.js"></script>
+   // <slider>
+   //  <slide><p>Amelia</p></slide>
+   //  <slide><p>Dana</p></slide>
+   //  <slide><p>Eva</p></slide>
+   //  <slide><p>Nicole</p></slide>
+   //  </slider> -->
+
 </body>
+
 </html>
